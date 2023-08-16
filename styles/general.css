@@ -4,3 +4,8 @@
     box-sizing: border-box;
     font-family: Roboto, Bricolage Grotesque;
 }
+
+
+body {
+    background-color: rgb(128, 128, 128);
+}

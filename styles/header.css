@@ -1,0 +1,106 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 70px;
+   background-color: white;
+   padding: 30px;
+
+}
+
+
+.nav-pic {
+    padding: 3px;
+    width: 20px;
+}
+
+
+
+.logo {
+    font-size: 40px;
+    color: rgba(0, 0, 255, 0.802);
+    margin-right: 5px;
+}
+
+
+
+.input-header {
+    font-size: 20px;
+    width: 250px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+
+
+.input-header::placeholder {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+
+
+.left-header {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+
+}
+
+
+
+.middle-header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    flex: 1;
+    max-width: 300px;
+    
+}
+
+
+
+.middle-icon {
+    font-size: 22px;
+    color: blue;
+    
+}
+
+
+
+.right-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    
+}
+
+
+
+.header-button {
+    font-size: 20px;
+      padding: 10px;
+      height: min-content;
+      border-radius: 40px;
+      border: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-pic {
+    height: 40px;
+}
