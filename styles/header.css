@@ -2,8 +2,10 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
+   position: fixed;
+   width: 100%;
    height: 70px;
-   background-color: white;
+   background-color: rgb(255,255,255);
    padding: 30px;
 
 }
@@ -18,7 +20,7 @@
 
 .logo {
     font-size: 40px;
-    color: rgba(0, 0, 255, 0.802);
+    color: rgb(0, 123, 255);
     margin-right: 5px;
 }
 
@@ -29,6 +31,7 @@
     width: 250px;
     height: 30px;
     border-radius: 15px;
+    border-style: solid;
     padding: 10px;
     margin-top: 8px;
 }
@@ -45,6 +48,7 @@
 .left-header {
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
     width: 200px;
 
 }
@@ -56,7 +60,7 @@
     justify-content: space-between;
     margin-left: 10px;
     flex: 1;
-    max-width: 300px;
+    max-width: 450px;
     
 }
 
@@ -64,7 +68,8 @@
 
 .middle-icon {
     font-size: 22px;
-    color: blue;
+    color: rgb(0, 123, 255);
+    cursor: pointer;
     
 }
 
@@ -74,7 +79,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 300px;
+    cursor: pointer;
+    width: 200px;
     
 }
 
@@ -85,19 +91,14 @@
       padding: 10px;
       height: min-content;
       border-radius: 40px;
-      border: none;
-    
+      border: none;    
 }
 
 
 
-
-
-
-
-
-
-
+.header-button:hover {
+    background-color: rgb(128, 128, 128);
+}
 
 
 
