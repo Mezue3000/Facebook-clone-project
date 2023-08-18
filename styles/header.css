@@ -12,8 +12,8 @@
 
 
 .nav-pic {
-    padding: 3px;
-    width: 20px;
+    width: 40px;
+    border-radius:40px;
 }
 
 
@@ -28,9 +28,9 @@
 
 .input-header {
     font-size: 20px;
-    width: 250px;
+    width: 240px;
     height: 30px;
-    border-radius: 15px;
+    border-radius: 14px;
     border-style: solid;
     padding: 10px;
     margin-top: 8px;
@@ -68,10 +68,20 @@
 
 .middle-icon {
     font-size: 22px;
-    color: rgb(0, 123, 255);
+    color: gray;
+    background-color: white;
     cursor: pointer;
     
 }
+
+
+
+.middle-icone {
+    font-size: 22px;
+    color:rgb(0, 123, 255);
+    cursor: pointer;
+}
+
 
 
 
@@ -98,10 +108,4 @@
 
 .header-button:hover {
     background-color: rgb(128, 128, 128);
-}
-
-
-
-.nav-pic {
-    height: 40px;
 }
