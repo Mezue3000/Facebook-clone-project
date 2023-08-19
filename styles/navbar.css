@@ -7,12 +7,17 @@
 }
 
 
+
+
 .left-icons {
     display: flex;
     align-items: center;
     cursor: pointer;
     margin: 30px;
 }
+
+
+
 
 
 .nav-image {
@@ -23,8 +28,11 @@
 
 
 
+
 .left-icons:hover {
-    color:rgba(0, 0, 0, 0);
+    background-color: rgb(175,175,175)  ;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 
@@ -38,11 +46,15 @@
 }
 
 
+
+
 .icony {
     font-size: 23px;
     color: grey;
     margin-right: 12px;
 }
+
+
 
 
 .text1 {
@@ -52,9 +64,12 @@
 }
 
 
+
 .text {
     font-size: 16px;
 }
+
+
 
 
 .text2 {
@@ -63,10 +78,15 @@
 }
 
 
+
+
 .text3 {
     font-size: 16px;
     margin-left: 5px;
 }
+
+
+
 
 .text4 {
     font-size: 20px;
@@ -74,9 +94,13 @@
 }
 
 
+
+
 .text5 {
     margin-left: 5px;
 }
+
+
 
 
 .nav-right {
@@ -89,10 +113,14 @@
 }
 
 
+
+
 .right-icon {
     display: flex;
     align-items: center;
 }
+
+
 
 
 .image3 {
@@ -103,9 +131,20 @@
 }
 
 
+
+.right-icon:hover {
+    background-color: rgb(175,175,175)  ;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
 .text-right {
     font-size: 18px;
 }
+
+
 
 
 .para1 {
@@ -115,6 +154,7 @@
     margin-bottom: 5px;
     margin-left:8px;
 }
+
 
 
 
@@ -133,10 +173,15 @@
     margin-bottom: 8px;
 }
 
+
+
+
 .search-box {
     margin-right: 20px;
     cursor: pointer;
 }
+
+
 
 
 .opt {
@@ -152,11 +197,24 @@
 }
 
 
+
+
+.contacts:hover {
+    background-color: rgb(175,175,175)  ;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+
+
 .contact-image {
     width: 40px;
     height: 40px;
     border-radius: 20px;
 }
+
+
 
 
 .names {
