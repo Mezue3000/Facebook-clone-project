@@ -1,0 +1,29 @@
+.main-body {
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    right:250px;
+}
+
+
+.flex-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 60px;
+}
+
+
+.card-pic {
+    width: 150px;
+    border-radius: 12px;
+}
+
+
+.card-pix {
+    width: 150px;
+    height:266px;
+    border-radius: 12px;
+}
+
