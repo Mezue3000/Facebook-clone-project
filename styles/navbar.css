@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin: 30px;
+    margin: 25px;
 }
 
 
@@ -31,14 +31,14 @@
 
 .left-icons:hover {
     background-color: rgb(175,175,175)  ;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 
 
 .icon-left {
-    font-size: 23px;
+    font-size: 20px;
     color: rgb(0, 123, 255);
     margin-right: 12px;
     border-radius: 15px;
@@ -118,6 +118,7 @@
 .right-icon {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 
@@ -133,9 +134,9 @@
 
 
 .right-icon:hover {
-    background-color: rgb(175,175,175)  ;
-    border-radius: 20px;
-    padding: 10px;
+    background-color: rgb(175,175,175);
+    border-radius: 10px;
+    padding: 5px;
 }
 
 
@@ -194,6 +195,7 @@
     display: flex;
     align-items: center;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 
@@ -201,8 +203,8 @@
 
 .contacts:hover {
     background-color: rgb(175,175,175)  ;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 5px;
     
 }
 

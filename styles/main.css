@@ -6,6 +6,7 @@
 }
 
 
+
 .flex-cards {
     display: flex;
     justify-content: space-between;
@@ -15,11 +16,15 @@
 }
 
 
+
+
 .card-pic {
     width: 150px;
     border-radius: 12px;
     cursor: pointer;
 }
+
+
 
 
 .card-pix {
@@ -28,4 +33,119 @@
     border-radius: 12px;
     cursor: pointer;
 }
+
+
+
+
+.main1 {
+    height: 130px;
+    width: 618px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+.flex-min {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 25px;
+    padding-top: 7px;
+    padding-left: 5px;
+    width: 550px;
+}
+
+
+
+
+.flex-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 25px;
+    padding-top: 7px;
+    padding-left: 5px;
+    width: 550px;
+}
+
+
+
+
+.flex-main:hover {
+    background-color: rgb(175,175,175);
+    border-radius: 10px;
+    padding:5px;
+}
+
+
+
+
+.hr9 {
+    margin:10px;
+}
+
+
+
+
+.imput-5 {
+    background-color: rgb(240,242,245);
+    border: none;
+    border-radius: 30px;
+    width: 600px;
+    height: 35px;
+    margin-left: 5px;
+    padding: 20px;
+}
+
+
+
+
+.imput-5::placeholder {
+    font-size: 18px;
+}
+
+
+
+
+.icons {
+    font-size: 23px;
+    color: crimson;
+    display: flex;
+    align-items: center;
+    padding-left:30px;
+    padding-right: 10px;
+}
+
+
+
+
+
+.icons1 {
+    font-size: 23px;
+    color: green;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+
+
+
+.icons2 {
+    font-size: 23px;
+    color: gold;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+
+
 
