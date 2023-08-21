@@ -103,6 +103,13 @@
 
 
 
+.copywright  {
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
 .nav-right {
     margin: 20px;
     position: fixed;

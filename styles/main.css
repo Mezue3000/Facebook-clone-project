@@ -149,3 +149,64 @@
 
 
 
+.navyy {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.sub-text {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+.artificial-image {
+    width: 620px;
+    height: 500px;
+}
+
+
+
+.container {
+    margin-top: 20px;
+    width: 620px;
+    height: 700px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+.linz {
+    margin-top: 50px;
+}
+
+
+
+
+.spanky {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.spanky1 {
+    display: flex;
+    padding: 20px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.696);
+}
+
+
+
+
+.likes {
+    margin-left: 10px;
+}
+
