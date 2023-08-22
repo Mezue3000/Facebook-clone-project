@@ -157,10 +157,13 @@
 
 
 
+
 .sub-text {
     padding-left: 20px;
     padding-bottom: 10px;
 }
+
+
 
 
 .artificial-image {
@@ -177,6 +180,7 @@
     background-color: white;
     border-radius: 10px;
 }
+
 
 
 
@@ -198,9 +202,22 @@
 
 .spanky1 {
     display: flex;
-    padding: 20px;
+    justify-content: space-between;
+    padding: 30px 70px 20px 50px ;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.696);
+    cursor: pointer;
+}
+
+
+
+
+
+.spanky1:hover {
+    background-color: grey;
+    border-radius: 8px;
+    padding: 10px;
+    color: green;
 }
 
 
@@ -209,4 +226,19 @@
 .likes {
     margin-left: 10px;
 }
+
+
+
+.load {
+    font-size: 17px;
+    width: 100px;
+    margin-left: 260px;
+    margin-top: 50px;
+    padding: 10px;
+    border-color:blue;
+    border-radius: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
 

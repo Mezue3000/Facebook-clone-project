@@ -86,6 +86,19 @@
 
 
 
+.notification-count {
+    position: absolute;
+    top: 7px;
+    left: 1105px;
+    padding: 3px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
 
 .right-header {
     display: flex;
@@ -99,6 +112,7 @@
 
 
 .header-button {
+    position: relative;
     font-size: 20px;
       padding: 10px;
       height: min-content;
